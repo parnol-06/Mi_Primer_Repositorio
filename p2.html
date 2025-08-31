@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Matrices Cuadradas</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"> <!-- Vincula tu archivo CSS aquí -->
+</head>
+<body>
+
+<div id="contenedor">
+    <div id="cabecera">
+        <h3>Introduce el tamaño de las matrices (N):</h3>
+        <form>
+            <input type="number" id="tamano" min="1" required><br><br>
+            <input type="button" onClick="cargarTamano()" value="Cargar Matrices">
+        </form>
+        <p id="longitud"></p> <!-- Añadido para mostrar el tamaño de las matrices -->
+    </div>
+    
+    <div id="columna1">
+        <h3>Matriz X</h3>
+        <div id="matrizX"></div>
+        
+        <h3>Mostrar Matrices</h3>
+        <div id="resultadoX"></div>
+    </div>
+    
+    <div id="columna2">
+        <h3>Matriz Y</h3>
+        <div id="matrizY"></div>
+        
+        <h3>Mostrar Matrices</h3>
+        <div id="resultadoY"></div>
+    </div>
+    
+    <div id="columna3">
+        <h3>Matriz Z (Suma de X y Y)</h3>
+        <div id="resultadoZ"></div>
+        <button onClick="mostrarMatrices()">Sumar Matrices</button>
+        <button onClick="multiplicar()">Multiplicar Matrices</button>
+        <button onClick="mostrarDeterminante()">Determinante X</button>
+        <button onClick="mostrarDeterminantey()">Determinante Y</button>
+        
+    <div id="resultado">
+        <h3>Determinante:</h3>
+        <div id="valorDeterminante"></div>
+        <div id="valorDeterminantey"></div>
+    </div>
+    </div>
+    
+      
+    
+</div>
+
+<script src="sumarmatriz.js"></script> <!-- Añade esta línea para incluir tu archivo JS -->
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #contenedor {
+    width: 100%;
+    border: 1px solid #000;
+    line-height: 130%;
+    background-color: #f2f2f2; 
+    overflow: hidden; /* Asegura que el contenedor envuelva las columnas flotantes */
+  }
+  
+  #cabecera {
+    padding: 10px;
+    color: #fff;
+    background-color: #becdfe;
+    clear: left;
+  }
+  
+  #columna1, #columna2, #columna3 {
+    float: left; /* Asegura que estas columnas se alineen correctamente */
+    width: 30%; /* Ancho de cada columna */
+    margin: 0;
+    padding: 1rem;
+  }
+  
+  #columna2 {
+    border-left: 1px solid #aaa; /* Borde a la izquierda */
+  }
+  
+  #columna3 {
+    border-left: 1px solid #aaa; /* Se añade un borde a la izquierda para separación */
+  }
+  
+  #pie {
+    padding: 10px;
+    color: #fff;
+    background-color: #becdfe;
+    clear: left;
+  }

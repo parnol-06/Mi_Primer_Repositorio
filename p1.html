@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Matrices Cuadradas</title>
+</head>
+<body>
+
+    <h3>Introduce el tamaño de las matrices (N):</h3>
+    <form>
+        <input type="number" id="tamano" min="1" required><br><br>
+        <input type="button" onClick="cargarTamano()" value="Cargar Matrices">
+    </form>
+    
+    <h3>Tamaño de las matrices cuadradas</h3>
+    <div id="longitud"></div>
+    
+    <h3>Matriz X</h3>
+    <div id="matrizX"></div>
+    
+    <h3>Matriz Y</h3>
+    <div id="matrizY"></div>
+    
+    <h3>Mostrar Matrices</h3>
+    <div id="resultadoX"></div>
+    <div id="resultadoY"></div>
+    
+    <h3>Matriz Z (Suma de X y Y)</h3>
+    <div id="resultadoZ"></div>
+
+    <button onClick="mostrarMatrices()">Mostrar Matrices</button>
+
+<script src="sumarmatriz.js">
+
+</script>
+
+</body>
+</html>
